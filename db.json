@@ -1,22 +1,20 @@
 {
     "users": [
         {
-<<<<<<< HEAD
             "id": 2,
             "name": "Vadim",
             "surname": "Bakun",
             "photo_url": "https://cs14.pikabu.ru/post_img/big/2023/02/13/8/1676296367166243426.png",
             "balance": 2000
-        }
-        
+        },
+        {
 
-=======
+
             "id": 1,
             "name": "Kostya",
             "surname": "Timoshchenko",
             "photo_url": "cat.jpg",
             "balance": "1500"
         }
->>>>>>> 6e2a8313a20b5b98d90f6daacde2428229846e98
     ]
 }
