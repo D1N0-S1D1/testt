@@ -1,6 +1,7 @@
 {
     "users": [
         {
+<<<<<<< HEAD
             "id": 2,
             "name": "Vadim",
             "surname": "Bakun",
@@ -9,5 +10,13 @@
         }
         
 
+=======
+            "id": 1,
+            "name": "Kostya",
+            "surname": "Timoshchenko",
+            "photo_url": "cat.jpg",
+            "balance": "1500"
+        }
+>>>>>>> 6e2a8313a20b5b98d90f6daacde2428229846e98
     ]
 }
