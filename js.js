@@ -7,19 +7,24 @@ fetch(url)
         console.log(data);
 
         let filtered = data.filter(function(filtData){
-            return filtData.userId == 1
+            return filtData.userId < 10
         })
 
-        let sortData = data.sort(function(first, second){
+        let sortData = filtered.sort(function(first, second){
+            if(first.title.length < second.title.length) return -1;
+            if(first.title.length > second.title.length) return 1;
+            return 0
             
         })
 
-        filtered.forEach(element => {
+        sortData.forEach(element => {
         addsector(element)
         })
 
 
     });
+
+    git_url = 
 
 
 
