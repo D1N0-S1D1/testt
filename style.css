@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: greenyellow;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: blue;
+    margin: 20px;
+    border-radius: 40px;
+    border: 2px solid black;
+    padding: 30px;
+    width: 220px;
+    box-shadow: 0 0 3px black;
+}
